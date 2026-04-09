@@ -2,6 +2,16 @@
 
 Use this directory to install Ollama on Ubuntu with AMD ROCm support.
 
+## Tested environment
+
+ROCm installation is sensitive to the host OS, GPU model, and ROCm version. This machine is currently:
+
+- OS: Ubuntu 24.04.4 LTS (`noble`)
+- GPU: 2x Radeon RX 7900 XT (`gfx1100`)
+- ROCm: 7.2.1
+
+If your system differs, especially on Ubuntu release, GPU generation, or ROCm version, expect package names, support status, or install behavior to differ.
+
 Files in this directory:
 
 - `README.md`: installation instructions
